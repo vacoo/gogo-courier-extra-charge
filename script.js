@@ -65,7 +65,7 @@ function calcWaits(drivers) {
 
       let txDate = new Date(tx);
 
-      for (let i = 0; i <= 3; i++) {
+      for (let i = 0; i <= 4; i++) {
         txDate.setHours(txDate.getHours() + (i === 0 ? 0 : 1))
         ranges.push(formatDate(txDate))
       }
